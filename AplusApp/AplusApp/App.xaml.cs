@@ -2,6 +2,8 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using AplusApp.TabPages;
+using AplusApp.Pages;
+
 namespace AplusApp
 {
     public partial class App : Application
@@ -10,7 +12,7 @@ namespace AplusApp
         {
             InitializeComponent();
 
-            MainPage = new InformationProject();
+            MainPage = new AuthPage();
         }
 
         protected override void OnStart()
